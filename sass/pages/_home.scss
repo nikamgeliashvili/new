@@ -1,0 +1,146 @@
+.main-container{
+     height: calc(100vh - 200px);
+     background-color: #00b900;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+
+     .main-title{  
+        h1{
+            font-size: 100px;
+            font-family: 'Conv_alk-tall-mtavruli';
+            -webkit-text-stroke: 3px white;
+            letter-spacing: 8px;
+          
+           
+        }
+
+        span{
+            font-size: 50px;
+            letter-spacing: 3px;
+            font-family: 'Conv_alk-tall-nusxuri';
+            font-style: italic;
+        }
+
+     }
+
+
+     .fb-page{
+        margin-top:70px;
+        
+      
+
+        a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-family: Conv_FiraGO-Regular ;
+
+            span{     
+                font-size: 18px;
+                line-height: 26px;
+                font-family: Conv_FiraGO-Regular ;
+                letter-spacing:unset;
+            }
+        }
+
+        img{
+            width: 75px;
+            height: 75px;
+            padding-right: 20px;
+        }
+     }
+     
+
+}
+
+footer{
+    padding: 30px 40px;
+    
+  .footer-top{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-bottom: 25px;
+
+        
+        img{
+            height:60px;
+            margin: 10px;
+        }
+
+    }
+
+    span{
+        font-family: Conv_FiraGO-Regular ;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .main-container{
+        height: unset;
+
+        .main-title{
+            padding: 60px 15px;
+
+            h1{
+                font-size: 40px;
+            }
+
+            span{
+                font-size: 20px;
+            }
+        }
+
+
+        .fb-page a {
+            display: flex;
+            align-items: unset;
+            flex-direction: column;
+        }
+        
+        
+    }
+
+    footer {
+        padding: 30px 15px;
+
+        .footer-top{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
+
+
+
+@font-face {
+	font-family: 'Conv_FiraGO-Regular';
+	src: url('fonts/FiraGO-Regular.eot');
+	src: local('☺'), url('../fonts/FiraGO-Regular.woff') format('woff'), url('../fonts/FiraGO-Regular.ttf') format('truetype'), url('../fonts/FiraGO-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'Conv_alk-tall-mtavruli';
+	src: url('../fonts/alk-tall-mtavruli.eot');
+	src: local('☺'), url('../fonts/alk-tall-mtavruli.eot') format('woff'), url('../fonts/alk-tall-mtavruli.ttf') format('truetype'), url('../fonts/alk-tall-mtavruli.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_alk-tall-nusxuri';
+	src: url('fonts/alk-tall-nusxuri.eot');
+	src: local('☺'), url('../fonts/alk-tall-nusxuri.woff') format('woff'), url('../fonts/alk-tall-nusxuri.ttf') format('truetype'), url('../fonts/alk-tall-nusxuri.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
