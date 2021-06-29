@@ -1,5 +1,5 @@
 .main-container{
-     height: calc(100vh - 200px);
+     height: calc(100vh - 245px);
      background-color: #00b900;
      display: flex;
      justify-content: center;
@@ -57,7 +57,8 @@
 }
 
 footer{
-    padding: 30px 40px;
+    padding: 20px 30px;
+
     
   .footer-top{
       display: flex;
@@ -87,11 +88,11 @@ footer{
             padding: 60px 15px;
 
             h1{
-                font-size: 40px;
+                font-size: 70px;
             }
 
             span{
-                font-size: 20px;
+                font-size: 30px;
             }
         }
 
