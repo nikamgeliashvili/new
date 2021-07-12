@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .main-container {
-  height: calc(100vh - 245px);
+  height: calc(100vh - 120px);
   background-color: #00b900;
   display: flex;
   justify-content: center;
@@ -35,12 +35,13 @@
       padding-right: 20px; }
 
 footer {
-  padding: 20px 30px; }
+  padding: 20px; }
   footer .footer-top {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    display: none; }
     footer .footer-top img {
       height: 60px;
       margin: 10px; }
