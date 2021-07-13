@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .main-container {
-  height: calc(100vh - 120px);
+  height: 100vh;
   background-color: #00b900;
   display: flex;
   justify-content: center;
@@ -21,6 +21,7 @@
     .main-container .fb-page a {
       display: flex;
       align-items: center;
+      justify-content: center;
       text-decoration: none;
       color: white;
       font-family: Conv_FiraGO-Regular; }
